@@ -1,0 +1,14 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - init: npm install && abtnode init -f --mode debug
+    command: export ABT_NODE_HTTP_PORT=8080 && export ABT_NODE_HTTPS_PORT=4430 && abtnode start && abtnode dev
+ports:
+  - port: 8080
+    onOpen: ignore
+  - port: 4430
+    onOpen: ignore
+  - port: 8089
+    onOpen: ignore
+  - port: 8090
+    onOpen: ignore
