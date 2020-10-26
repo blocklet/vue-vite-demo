@@ -4,7 +4,7 @@ This project was bootstrapped with [Vite](https://github.com/vitejs/vite). It de
 
 ## Run and debug in the cloud with Gitpod
 
-Click the "Open in Gitpod" button, Gitpod will start ABT Node and the blocklet.<br>[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blocklet/react-demo)
+Click the "Open in Gitpod" button, Gitpod will start ABT Node and the blocklet.<br>[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blocklet/vue-vite-demo)
 
 ## Run and debug locally 
 
