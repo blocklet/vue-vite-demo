@@ -12,7 +12,7 @@ Click the "Open in Gitpod" button, Gitpod will start ABT Node and the blocklet.<
 yarn global add @abtnode/cli
 git clone git@github.com:blocklet/vue-lite-demo.git
 cd vue-lite-demo
-yarn
+npm install
 abtnode init --mode debug
 abtnode start
 abtnode dev
