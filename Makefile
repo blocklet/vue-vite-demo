@@ -1,10 +1,10 @@
 dep:
 	@echo "Install dependencies required for this repo..."
-	@yarn
+	@npm install
 
 test:
 	@echo "Running test suites..."
 
 build:
 	@echo "Building the software..."
-	@yarn build
+	@npm run build
