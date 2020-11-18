@@ -1,0 +1,17 @@
+name: vue-vite-demo
+version: 0.1.0
+main: dist
+title: Vue Vite Demo
+scripts:
+  dev: npm run dev
+description: >-
+  Blocklet from
+  /Users/linchen/code/blocklet/blocklet-migrate-ci/workspaces/vue-vite-demo
+group: static
+publicUrl: /
+capabilities:
+  dynamicPathPrefix: true
+charging:
+  price: 0
+did: z8ia2HXqK3dwKdyRsCfVfpH5Vg7w1CGVrobdK
+specVersion: 1.0.0

@@ -12,13 +12,6 @@
     "@vue/compiler-sfc": "^3.0.0-rc.1",
     "vite": "^1.0.0-rc.8"
   },
-  "blocklet": {
-    "scripts": {
-      "dev": "npm run dev"
-    },
-    "main": "dist",
-    "title": "Vue Vite Demo"
-  },
   "files": [
     "dist"
   ]
