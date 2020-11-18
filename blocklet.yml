@@ -4,6 +4,7 @@ description: >-
   /Users/linchen/code/blocklet/blocklet-migrate-ci/workspaces/vue-vite-demo
 group: static
 version: 0.1.1
+author: Arcblock
 main: dist
 title: Vue Vite Demo
 publicUrl: /
