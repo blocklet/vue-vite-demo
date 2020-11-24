@@ -3,7 +3,10 @@
   "version": "0.1.1",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "clean": "rm -rf .blocklet",
+    "release": "npm run clean && npm run build && abtnode bundle --create-release",
+    "deploy": "npm run release && abtnode deploy .blocklet/bundle"
   },
   "dependencies": {
     "vue": "^3.0.0-rc.1"
