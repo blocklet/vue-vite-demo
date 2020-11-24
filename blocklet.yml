@@ -1,5 +1,5 @@
 name: vue-vite-demo
-version: 0.1.1
+version: 0.1.2
 files:
   - dist
 description: >-
@@ -27,3 +27,7 @@ interfaces:
     protocol: tcp
 environments: []
 screenshots: []
+timeout:
+  start: 10
+capabilities:
+  dynamicPathPrefix: true
