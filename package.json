@@ -5,8 +5,8 @@
     "dev": "vite",
     "build": "vite build",
     "clean": "rm -rf .blocklet",
-    "bundle": "npm run clean && npm run build && abtnode bundle --create-release",
-    "deploy": "npm run bundle && abtnode deploy .blocklet/bundle"
+    "bundle": "npm run clean && npm run build && blocklet bundle --create-release",
+    "deploy": "npm run bundle && blocklet deploy .blocklet/bundle"
   },
   "dependencies": {
     "vue": "^3.0.0-rc.1"
