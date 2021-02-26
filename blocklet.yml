@@ -1,10 +1,14 @@
 name: vue-vite-demo
 version: 0.1.2
 files:
+  - blocklet.md
+  - README.md
   - dist
-description: >-
-  Blocklet from
-  /Users/linchen/code/blocklet/blocklet-migrate-ci/workspaces/vue-vite-demo
+keywords:
+  - static
+  - demo
+  - Vue Vite
+description: A minimalism Blocklet build with VUE.
 group: static
 author:
   name: Arcblock
@@ -12,7 +16,7 @@ main: dist
 title: Vue Vite Demo
 scripts:
   dev: npm run dev
-specVersion: 1.0.1
+specVersion: 1.0.2
 did: z8ia2HXqK3dwKdyRsCfVfpH5Vg7w1CGVrobdK
 community: ''
 documentation: ''
@@ -29,5 +33,7 @@ environments: []
 screenshots: []
 timeout:
   start: 10
-capabilities:
-  dynamicPathPrefix: true
+requirements:
+  abtnode: '>=1.1.0'
+  os: '*'
+  cpu: '*'
