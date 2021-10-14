@@ -1,5 +1,5 @@
 name: vue-vite-demo
-version: 0.1.5
+version: 0.1.6
 files:
   - blocklet.md
   - README.md
@@ -42,4 +42,5 @@ charging:
   tokens: []
   shares: []
 children: []
-capabilities: {}
+capabilities:
+  clusterMode: false
