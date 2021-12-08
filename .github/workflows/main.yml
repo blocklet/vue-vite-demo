@@ -22,10 +22,10 @@ jobs:
         run: make dep
 
       - name: Blocklet workflow
-        uses: blocklet/action-workflow@v0.2.2
+        uses: blocklet/action-workflow@v1.1
         with:
-          bundle-command: yarn bundle
           skip-upload: false
-          registry-endpoint: ${{ secrets.STAGING_REGISTRY }}
-          developer-sk: ${{ secrets.ABTNODE_DEV_STAGING_SK }}
+          bundle-command: yarn bundle
+          store-endpoint: ${{ secrets.STORE_ENDPOINT_DEV }}
+          store-access-token: ${{ secrets.STORE_ACCESS_TOKEN_DEV }}
           github-token: ${{ secrets.GITHUB_TOKEN }}

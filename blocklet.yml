@@ -1,5 +1,5 @@
 name: vue-vite-demo
-version: 0.1.6
+version: 0.1.7
 files:
   - blocklet.md
   - README.md
@@ -16,7 +16,7 @@ main: dist
 title: Vue Vite Demo
 scripts:
   dev: npm run dev
-specVersion: 1.1.1
+specVersion: 1.2.0
 did: z8ia2HXqK3dwKdyRsCfVfpH5Vg7w1CGVrobdK
 community: ''
 documentation: ''
@@ -37,10 +37,9 @@ requirements:
   abtnode: '>=1.1.0'
   os: '*'
   cpu: '*'
-charging:
-  price: 0
-  tokens: []
-  shares: []
+payment:
+  price: []
+  share: []
 children: []
 capabilities:
   clusterMode: false
